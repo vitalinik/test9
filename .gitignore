@@ -1,0 +1,15 @@
+# Lambda build artifacts
+*.zip
+
+# Temporary/test files
+execution-input.json
+
+# Extracted Lambda source
+lambdas-src/
+
+# AWS generated/current state snapshots
+*-current.json
+
+# Local AWS/test artifacts
+health-check-eu.json
+health-check-us.json
